@@ -17,10 +17,15 @@ This is an Epicodus student project.
 
 
 ## Test Specs
-* Describe: Function beep-boop()
-* Code: beep_boop(0);
+* Describe: Function number(input)
+* Code: number(0);
 * Test: If the number 0 is inputted the response should be 0.
 * Expected Output: 0
+
+* Describe: Function number(input)
+* Code: number("1");
+* Test: If the number 1 is inputted the response should be boop.
+* Expected Output: boop.
 
 
 This Beep-Boop project will allow a user to input a number and depending on that number they will get a loaded wacky response. The number 3 will be the most important giving a response of "Won't you be my neighbor." Second in line will be the number 2 with a response of "Boop."  Lastly, the number 1 will give a "Boop" response. All other digits will be listed starting from 0 up to the number the user inputted. 
