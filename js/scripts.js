@@ -29,7 +29,12 @@ function number(input) {
     return word2;
     } 
 }
-
+function number(input) {
+  const word3 = "Won't you be my neighbor?";
+  if (input === "3") {
+    return word3;
+    } 
+}
 
 
 //const output= (number).toString;
