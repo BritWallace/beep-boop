@@ -19,12 +19,17 @@ This is an Epicodus student project.
 ## Test Specs
 * Describe: Function number(input)
 * Code: number(0);
-* Test: If the number 0 is inputted the response should be 0.
+* Test 1: If the number 0 is inputted the response should be 0.
 * Expected Output: 0
 
 * Describe: Function number(input)
 * Code: number("1");
-* Test: If the number 1 is inputted the response should be boop.
+* Test 2: If the number 1 is inputted the response should be beep.
+* Expected Output: beep.
+
+* Describe: Function number(input)
+* Code: number("2");
+* Test 3: If the number 2 is inputted the response should be boop.
 * Expected Output: boop.
 
 
