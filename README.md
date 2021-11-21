@@ -29,8 +29,13 @@ This is an Epicodus student project.
 
 * Describe: Function number(input)
 * Code: number("2");
-* Test 3: If the number 2 is inputted the response should be boop.
-* Expected Output: boop.
+* Test 3: If the number 2 is inputted the response should be "boop."
+* Expected Output: "boop."
+
+* Describe: Function number(input)
+* Code: number("3");
+* Test 4: If the number 3 is inputted the response should be, "Won't you be  my    neighbor?'
+* Expected Output: "Won't you be my neighbor?"
 
 
 This Beep-Boop project will allow a user to input a number and depending on that number they will get a loaded wacky response. The number 3 will be the most important giving a response of "Won't you be my neighbor." Second in line will be the number 2 with a response of "Boop."  Lastly, the number 1 will give a "Boop" response. All other digits will be listed starting from 0 up to the number the user inputted. 
@@ -42,7 +47,7 @@ This Beep-Boop project will allow a user to input a number and depending on that
 
 ## Known Bugs
 
-* No Known Bugs
+* This is one big bug!
 
 # License
 
