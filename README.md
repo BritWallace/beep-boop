@@ -52,7 +52,7 @@ This Beep-Boop project will allow a user to input a number and depending on that
 
 ## Known Bugs
 
-* Does not cut array at the inputted number yet.
+* Does not cut array at the inputted number yet. UI Logic is not hooked up correctly. Images is way too large. 
 
 # License
 
