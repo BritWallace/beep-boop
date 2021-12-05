@@ -17,25 +17,30 @@ This is an Epicodus student project.
 
 
 ## Test Specs
-* Describe: Function number(input)
-* Code: number(0);
+* Describe: Function beep(input)
+* Code: console.log(beep(0));  
 * Test 1: If the number 0 is inputted the response should be 0.
 * Expected Output: 0
 
-* Describe: Function number(input)
-* Code: number("1");
+* Describe: Function beep(input)
+* Code: console.log(beep(1));  
 * Test 2: If the number 1 is inputted the response should be beep.
 * Expected Output: beep.
 
-* Describe: Function number(input)
-* Code: number("2");
+* Describe: Function beep(input)
+* Code: console.log(beep(2));  
 * Test 3: If the number 2 is inputted the response should be "boop."
-* Expected Output: "boop."
+* Expected Output: "beep."
 
-* Describe: Function number(input)
-* Code: number("3");
+* Describe: Function beep(input)
+* Code: console.log(beep(3));  
 * Test 4: If the number 3 is inputted the response should be, "Won't you be  my    neighbor?'
 * Expected Output: "Won't you be my neighbor?"
+
+* Describe: Function beep(input)
+*  Code: console.log(beep(13));  
+*  Test 5: If the number 13 is inputted the response should be, "Won't you be my neighbor?,boop, beep, ,beep,9,8,7,6,5,4,Won't you be my neighbor?,boop,beep.
+*  Expected Output: "Won't you be my neighbor?, boop, beep, ,beep,9,8,7,6,5,4,Won't you be my neighbor?,boop,beep.
 
 
 This Beep-Boop project will allow a user to input a number and depending on that number they will get a loaded wacky response. The number 3 will be the most important giving a response of "Won't you be my neighbor." Second in line will be the number 2 with a response of "Boop."  Lastly, the number 1 will give a "Boop" response. All other digits will be listed starting from 0 up to the number the user inputted. 
@@ -47,7 +52,7 @@ This Beep-Boop project will allow a user to input a number and depending on that
 
 ## Known Bugs
 
-* This is one big bug!
+* Does not cut array at the inputted number yet.
 
 # License
 
